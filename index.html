@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Navigation Bar</title>
+    <style>
+        :root{
+            --color: yellow;
+            --background-color:red;
+            --box-color:yellowgreen;
+            --seccolor:grey;
+        }
+        * {
+            margin: 3px;
+            padding: 2px;
+            background-color: var(--color);
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        li {
+            padding: 3px;
+            margin: 4px;
+            color: var(--seccolor);
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Infosys</li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
